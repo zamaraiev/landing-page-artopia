@@ -2,6 +2,7 @@ AOS.init();
 
 $('.slider').slick({
     centerMode: true,
+    mobileFirst: true,
     centerPadding: '60px',
     slidesToShow: 3,
     responsive: [
