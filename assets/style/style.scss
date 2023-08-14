@@ -1015,9 +1015,10 @@ body{
     height: fit-content;
     padding: 50px 0;
 
-    background-image: url("../assets/img/footer/footer_bg.png");
+    background-image: url("../img/footer/footer_bg.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 
     &__copyright{
         text-align: center;
