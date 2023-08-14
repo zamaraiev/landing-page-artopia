@@ -2,30 +2,19 @@ AOS.init();
 
 $('.slider').slick({
     centerMode: true,
-    mobileFirst: true,
-    centerPadding: '60px',
+    centerPadding: '30px',
     slidesToShow: 3,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 1000,
         settings: {
           arrows: false,
           mobileFirst: true,
           centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
+          centerPadding: '30px',
+          slidesToShow: 3
         }
       },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          mobileFirst: true,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }
     ]
 });
         
