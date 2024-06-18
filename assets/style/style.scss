@@ -386,6 +386,10 @@ body{
 
     &__img{
         width: 100%;
+
+        &:hover{
+            opacity: 0.7;
+        }
     }
 }
 
@@ -486,6 +490,9 @@ body{
 
             padding: 10px;
 
+            &:hover{
+                opacity: 0.7;
+            }
 
             &-section-img {
                 display: grid;
@@ -684,6 +691,10 @@ body{
 
                 border-top-left-radius: $borderRadius; 
                 border-top-right-radius: $borderRadius;
+
+                &:hover{
+                    opacity: 0.7;
+                }
             }
 
             #category__block_1{
@@ -907,6 +918,10 @@ body{
             border-radius: $borderRadius;
 
             margin-top: 50px;
+
+            &:hover{
+                background-color: gray;
+            }
 
             &__title{
                 font-size: $bigTextFontSize;
