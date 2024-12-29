@@ -162,7 +162,7 @@ body button:hover {
 .banner {
   height: 110vh;
   max-height: 1200px;
-  background-image: url("../img/banner/banner__bg.png");
+  background-image: url("../img/categories/bg/category_bg_1-original.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
