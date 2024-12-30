@@ -2,6 +2,10 @@
 /* Fonts */
 /* Font Sizes */
 /* Border Radius */
+html {
+  font-size: clamp(14px, 1.1vw, 24px) !important;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -69,14 +73,14 @@ body button:hover {
   grid-template-columns: 20% 45% 35%;
 }
 .nft-block-content__container-block-text {
-  font-size: 15.5px;
+  font-size: 1rem;
 }
 .nft-block-content__container-block-title {
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 30px;
 }
 .nft-block-content__container-block-price {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .nft-block-content__container-block:last-child {
   text-align: right;
@@ -86,7 +90,7 @@ body button:hover {
   width: 100%;
 }
 .nft-block-content__title {
-  font-size: 22px;
+  font-size: 1.4rem;
   line-height: 39.6px;
   letter-spacing: 0.42px;
   margin-bottom: 10px;
@@ -118,7 +122,7 @@ body button:hover {
   text-align: center;
 }
 .header__menu_link {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 20px;
 }
 .header__sing-up {
@@ -129,13 +133,13 @@ body button:hover {
 }
 .header .burger-menu {
   display: none;
-  height: 200px;
+  height: 300px;
   background-color: var(--neutral-dark, #121212);
   text-align: center;
 }
 .header .burger-menu__link {
-  font-size: 20px;
-  margin: 20px;
+  font-size: 2.375rem;
+  margin: 3rem;
   list-style: none;
 }
 .header__burger-icon {
@@ -199,7 +203,7 @@ body button:hover {
 }
 .banner__text {
   margin-top: 40px;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 145%; /* 34.8px */
   letter-spacing: 0.36px;
   width: 75%;
@@ -210,7 +214,7 @@ body button:hover {
 }
 .banner__explore-title {
   margin: 40px 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: normal;
 }
 .banner__explore-data {
@@ -229,7 +233,7 @@ body button:hover {
   margin-bottom: 10px;
 }
 .banner__explore-data-text {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: normal;
 }
 
@@ -311,11 +315,11 @@ body button:hover {
   height: 750px;
 }
 .trending-sales__title {
-  font-size: 48px;
+  font-size: 3rem;
 }
 .trending-sales__text {
   margin-top: 10px;
-  font-size: 22px;
+  font-size: 1.4rem;
   line-height: 35.2px;
 }
 .trending-sales__nft {
@@ -333,11 +337,11 @@ body button:hover {
   padding: 200px 0;
 }
 .creators__title {
-  font-size: 38px;
+  font-size: 2.375rem;
 }
 .creators__text {
   margin-top: 10px;
-  font-size: 22px;
+  font-size: 1.4rem;
   line-height: 35.2px;
 }
 .creators__text-block {
@@ -391,14 +395,14 @@ body button:hover {
   grid-template-columns: repeat(2, 1fr);
 }
 .creators__top-creators-container__block-title {
-  font-size: 26px;
+  font-size: 1.625rem;
   text-transform: capitalize;
   line-height: 37.59px;
   word-wrap: break-word;
   margin-bottom: 10px;
 }
 .creators__top-creators-container__block-text {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 27.34px;
   word-wrap: break-word;
 }
@@ -451,12 +455,12 @@ body button:hover {
 }
 .create-nft__statistic-block__title {
   color: #A259FF;
-  font-size: 44px;
+  font-size: 2.75rem;
   line-height: 66px;
   word-wrap: break-word;
 }
 .create-nft__statistic-block__text {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .create-nft__title {
   color: #A259FF;
@@ -467,7 +471,7 @@ body button:hover {
   width: 90%;
 }
 .create-nft__text {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 29px;
   word-wrap: break-word;
   width: 70%;
@@ -475,7 +479,7 @@ body button:hover {
 }
 .create-nft__button {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #ffffff;
   height: 60px;
@@ -500,7 +504,7 @@ body button:hover {
   padding: 200px 0;
 }
 .categories__title {
-  font-size: 38px;
+  font-size: 2.375rem;
   text-transform: capitalize;
   line-height: 45.6px;
   word-wrap: break-word;
@@ -560,7 +564,7 @@ body button:hover {
   border-bottom-right-radius: 25px;
 }
 .categories-block .category-block__title {
-  font-size: 26px;
+  font-size: 1.625rem;
   text-transform: capitalize;
   line-height: 37.75px;
   word-wrap: break-word;
@@ -577,7 +581,7 @@ body button:hover {
   height: 800px;
 }
 .categories-slider__title {
-  font-size: 44px;
+  font-size: 2.75rem;
   line-height: 64px;
   word-wrap: break-word;
   text-align: center;
@@ -667,7 +671,7 @@ body button:hover {
   padding: 200px 0;
 }
 .get-started__title {
-  font-size: 44px;
+  font-size: 2.75rem;
   line-height: 66px;
   word-wrap: break-word;
   text-align: center;
@@ -684,7 +688,7 @@ body button:hover {
   display: grid;
   place-items: center;
   text-align: center;
-  height: 20vw;
+  height: 22vw;
   padding: 10px;
   border: 1.5px solid #5F5F5F;
   border-radius: 25px;
@@ -694,12 +698,12 @@ body button:hover {
   background-color: gray;
 }
 .get-started__steps-block__title {
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 36.92px;
   word-wrap: break-word;
 }
 .get-started__steps-block__text {
-  font-size: 15.5px;
+  font-size: 1rem;
   line-height: 21.54px;
   word-wrap: break-word;
 }
@@ -741,7 +745,7 @@ body button:hover {
           align-items: center;
 }
 .subscribe__title {
-  font-size: 44px;
+  font-size: 2.75rem;
   text-transform: capitalize;
   line-height: 66px;
   margin-top: 7vw;
@@ -751,7 +755,7 @@ body button:hover {
 .subscribe__text {
   margin-bottom: 36px;
   width: 65%;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 @media screen and (min-width: 1800px) {
@@ -797,7 +801,7 @@ body button:hover {
 }
 .footer__copyright-text {
   margin-top: 50px;
-  font-size: 15.5px;
+  font-size: 1rem;
 }
 .footer__content {
   display: -ms-grid;
@@ -817,7 +821,7 @@ body button:hover {
 }
 .footer__terms__nav-link {
   margin-left: 20px;
-  font-size: 15.5px !important;
+  font-size: 1rem !important;
 }
 .footer__contact__logo {
   margin-bottom: 20px;
@@ -826,7 +830,7 @@ body button:hover {
   margin-bottom: 20px;
   width: 80%;
   color: #777E90;
-  font-size: 18px !important;
+  font-size: 1.125rem !important;
   line-height: 24px;
 }
 .footer__contact__social-media {
@@ -843,7 +847,7 @@ body button:hover {
   border-style: none;
   background-color: rgb(27, 27, 27);
   color: #777E90;
-  font-size: 15.5px !important;
+  font-size: 1rem !important;
   font-weight: 500;
   padding: 5px;
 }
@@ -861,7 +865,7 @@ body button:hover {
 }
 .footer-link {
   color: #777E90 !important;
-  font-size: 18px !important;
+  font-size: 1.125rem !important;
   font-weight: 400;
   line-height: 24px;
 }

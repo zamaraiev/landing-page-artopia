@@ -14,26 +14,33 @@ $footerColor: #777E90;
 $fontFamily: sans-serif;
 
 /* Font Sizes */
-$bigTextFontSize: 24px;
-$mediumTextFontSize: 22px;
-$normalTextFontSize: 20px;
-$smallTextFontSize: 18px;
-$secondSmallTextFontSize: 15.5px;
+$mainMobileFontSize: 14px;
+$mainDesctopFontSize: 24px;
 
-$bigTitleFontSize: 48px;
-$mediumTitleFontSize: 44px;
-$normalTitleFontSize: 38px;
-$smallTitleFontSize: 26px;
+$bigTextFontSize: 1.5rem;          // 24px / 16
+$mediumTextFontSize: 1.4rem;     // 22px / 16
+$normalTextFontSize: 1.25rem;      // 20px / 16
+$smallTextFontSize: 1.125rem;      // 18px / 16
+$secondSmallTextFontSize: 1rem; // 15.5px / 16
 
-$mobileTextFontSize: 20px;
-$mobileTitleFontSize: 40px;
-$mobileSecondTextFontSize: 35px;
-$mobileSmallTextFontSize: 14px;
+$bigTitleFontSize: 3rem;           // 48px / 16
+$mediumTitleFontSize: 2.75rem;     // 44px / 16
+$normalTitleFontSize: 2.375rem;    // 38px / 16
+$smallTitleFontSize: 1.625rem;     // 26px / 16
+
+$mobileTextFontSize: 1.25rem;      // 20px / 16
+$mobileTitleFontSize: 2.5rem;      // 40px / 16
+$mobileSecondTextFontSize: 2rem; // 35px / 16
+$mobileSmallTextFontSize: 0.875rem;  // 14px / 16
 
 
 /* Border Radius */
 
 $borderRadius: 25px;
+
+html{
+    font-size: clamp($mainMobileFontSize, 1.1vw ,$mainDesctopFontSize) !important;
+}
 
 *{
     margin: 0;
@@ -196,13 +203,13 @@ body{
     .burger-menu{
         display: none;
 
-        height: 200px;
+        height: 300px;
         background-color: $bgColor;
         text-align: center;
 
         &__link{
-            font-size: $normalTextFontSize;
-            margin: 20px;
+            font-size: $normalTitleFontSize;
+            margin: 3rem;
             list-style: none;
         }
     }
@@ -910,7 +917,7 @@ body{
             place-items: center; 
             text-align: center;
 
-            height: 20vw;
+            height: 22vw;
 
             padding: 10px;
 
