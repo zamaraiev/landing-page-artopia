@@ -3,7 +3,7 @@
 /* Font Sizes */
 /* Border Radius */
 html {
-  font-size: clamp(14px, 1.1vw, 24px) !important;
+  font-size: clamp(14px, 1.1vw, 22px) !important;
 }
 
 * {
